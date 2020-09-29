@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/style_1.css" rel="stylesheet" type ="text/css">
+    <title>Учусь летать</title>
+  </head>
+  <body>
+    <from>
+    <fieldset>
+      <legend>Запись на курсы</legend>
+    <p><strong>ФИО:</strong>
+      <input maxlength="25" size="40" name="login" placeholder="Логин">
+    </p>
+    <p><strong>Email:</strong>
+      <input type="email" maxlength="25" size="40"placeholder="Email">
+    </p>
+    <p><strong>Телефон:</strong>
+      <input type="tel" maxlength="25" size="40"placeholder="Телефон">
+    </p>
+    <p><strong>Пароль:</strong>
+      <input type="password" maxlength="25" size="40" name="password" required placeholder="Пароль">
+    </p>
+    <p>Согласие на обработку персональных данных</p>
+       <p><input type="checkbox" name="a" value="Да"required> Согласен(на) </p>
+
+
+           <p><label for="pol">Пол</label>
+           <select name="pol" id="pol">
+               <option value="">Не указан</option>
+               <option value="1">Мужской</option>
+               <option value="2">Женский</option>
+           </select>
+
+    <p><b>Хотите получать уведомления о спец. предложениях?</b></p>
+    <p><input name="advertising" type="radio" value="yes"checked>Да</p>
+    <p><input name="advertising" type="radio" value="no">Нет</p>
+    <p><input type="submit" value="ОТПРАВИТЬ"></p>
+    </fieldset>
+    </from>
+  </body>
+</html>
